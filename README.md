@@ -7,8 +7,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 In the project directory, you can run:
 
 ### Before Start
-npm install axios
-npm install multiselect-react-dropdown
+npm install axios\
+npm install multiselect-react-dropdown\
+npm install react-select\
+
 
 ### `npm start`
 

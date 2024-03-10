@@ -1,0 +1,21 @@
+/* selectStyles.css */
+
+/* Custom styles for react-select */
+.custom-select {
+  font-family: Arial, sans-serif;
+}
+
+.custom-select .react-select__control {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.custom-select .react-select__menu {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.custom-select .react-select__option--is-selected {
+  background-color: #007bff;
+  color: #fff;
+}
