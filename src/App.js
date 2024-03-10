@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import Multiselect from 'multiselect-react-dropdown';
+import multiselectStyles from './multiselectStyles';
 
 const App = () => {
   const [characters, setCharacters] = useState([]);
