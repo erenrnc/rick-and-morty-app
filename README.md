@@ -9,7 +9,7 @@ In the project directory, you can run:
 ### Before Start
 npm install axios\
 npm install multiselect-react-dropdown\
-npm install react-select\
+npm install react-select
 
 
 ### `npm start`
