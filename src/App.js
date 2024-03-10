@@ -26,13 +26,14 @@ const App = () => {
 
   return (
     <div>
-      <Multiselect
-        options={characters.map(character => ({ value: character.id, label: character.name }))}
-        selectedValues={selectedCharacters}
-        onSelect={handleSelect}
-        onRemove={handleRemove}
-        displayValue="label"
-      />
+        <Multiselect
+            options={characters.map(character => ({ value: character.id, label: character.name }))}
+            selectedValues={selectedCharacters}
+            onSelect={handleSelect}
+            onRemove={handleRemove}
+            displayValue="label"
+            style={multiselectStyles}
+        />
       <h2>Selected Characters:</h2>
       <ul>
         {selectedCharacters.map(character => (
